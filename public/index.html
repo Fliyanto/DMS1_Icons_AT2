@@ -44,7 +44,6 @@
         setTimeout (() => teach1.src = 'img/teach1.png', 1000)
     }
 
-
     const engin1 = document.getElementById ('engin1')
     const engin1_audio = new audio ('Sound/scdrive_audio.mp3')
     engin1.onpointerdown = () => {
@@ -52,5 +51,13 @@
         engin1.src = 'img/engin2.png'
         setTimeout (() => engin1.src = 'img/engin1.png', 1000) 
           }
+          const teach1 = document.getElementById ('teach1')
+    const teach1_audio = new audio ('Sound/scbell.mp3')
+    teach1.onpointerdown = () => {
+        teach1_audio.play ()
+        teach.src = 'img/teach2.png'
+        setTimeout (() => teach1.src = 'img/teach1.png', 1000)
+    }
+
           
 </script>
