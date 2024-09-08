@@ -38,5 +38,9 @@
 <script>
     const teach = document.getElementById ('teach1')
     const teach_audio = new audio ('Sound/card_beep.mp3')
-    teach1.onpointerdown = () => teach1_audio.play () 
+    teach1.onpointerdown = () => {
+        teach1_audio.play ()
+        teach.src = 'img/teach2.png'
+        
+        } 
 </script>
