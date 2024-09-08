@@ -19,7 +19,7 @@
     <div class="row">
         <div class="image-container"><img id="teach1" src="img/teach1.png" height="200" width="200"/></div>
         <div class="image-container"><img id="engin1" src="img/engin1.png" height="200" width="200"/></div>
-        <div class="image-container"><img id= "fire1" src="img/fire1.png" height="200" width="200"/></div>
+        <div class="image-container"><img id="fire1" src="img/fire1.png" height="200" width="200"/></div>
     </div>
 
     <div class="row">
@@ -35,3 +35,8 @@
     </div>
 </body>
 
+<script>
+    const teach1 = document.getElementById ('teach1')
+    const teach1_audio = new audio ('Sound/scbell.mp3')
+    teach1.onpointerdown = () => teach1_audio.play ()
+</script>
