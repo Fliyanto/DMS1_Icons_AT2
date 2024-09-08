@@ -54,5 +54,56 @@
           }
     
     
-          
+    const fire1 = document.getElementById ('fire1')    
+    const fire1_audio = new Audio ('Sound/truck_audio.mp3') 
+    fire1.onpointerdown = () => {
+        fire1_audio.play ()
+        fire1.src = 'img/fire2.png'
+        setTimeout (() => fire1.src = 'img/fire1.png')
+    }
+
+    const chem1 = document.getElementById ('chem1')
+    const chem1_audio = new Audio ('Sound/bub_audio.mp3')
+    chem1.onpointerdown = () => {
+        chem1_audio.play ()
+        chem1.src = 'img/chem2.png'
+        setTimeout (() => chem1.src = 'img/chem1.png')
+    }
+
+    const police1 = document.getElementById ('police1')
+    const police1_audio = new Audio ('Sound/cuff_audio.mp3')
+    police1.onpointerdown = () => {
+        police1_audio.play ()
+        police1.src = 'img/police2.png'
+        setTimeout (() => police1.src = 'img/police1.png')
+    }
+
+    const astro1 = document.getElementById ('astro1')
+    const astro1_audio = new Audio ('Sound/rock_audio.mp3')
+    astro1.onpointerdown = () => {
+        astro1_audio.play ()
+        astro1.src = 'img/astro2.png' 
+        setTimeout(() => astro1.src = 'img/astro1.png')
+
+    }
+
+    const race1 = document.getElementById ('race1')
+    const race1_audio =  new Audio ('Sound/f1_audio.mp3')
+    race1.onpointerdown = () => {
+        race1_audio.play ()
+    }
+
+    const bask1 = document.getElementById ('bask1')
+    const bask1_audio = new Audio ('Sound/swish_audio.mp3')
+    bask1.onpointerdown = () => {
+        bask1_audio.play ()
+        bask1.src = 'img/bask2.png'
+        setTimeout(()=> bask1.src = '/img/bask1.png')
+    }
+
+    const chef1 = document.getElementById ('chef1')
+    const chef1_audio = new Audio ('Sound/ding_audio.mp3')
+    chef1.onpointerdown = () => {
+        chef1_audio.play ()
+    }
 </script>
